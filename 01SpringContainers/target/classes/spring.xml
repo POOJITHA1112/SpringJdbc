@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans xmlns="http://www.springframework.org/schema/beans"
+ xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+ xsi:schemaLocation="http://www.springframework.org/schema/beans
+ https://www.springframework.org/schema/beans/spring-beans.xsd">
+
+
+<!-- 	<bean id="employee" class="com.beans.Employee" scope="prototype"> -->
+	<bean id="employee" class="com.beans.Employee" scope="singleton">
+	
+<!-- 	<constructor-arg index="0" type="int"  value="10" /> -->
+<!-- 	<constructor-arg index="1" type="Java.lang.String" value="Poojitha" /> -->
+<!-- 	<constructor-arg  value="poojithamamidi03@gmail.com" /> -->
+	
+	<constructor-arg value="10" type="int" index="0" />
+	<constructor-arg value="Poojitha" type="String" index="1" />
+	<constructor-arg value="poojithamamidi03@gmail.com" type="String" index="2" />
+	
+	
+	<property name="id" value="20" />
+	<property name="name" value="Poojitha" />
+<!-- <property name="email" value="poojithamamidi03@gmail.com " /> -->
+	
+	</bean>
+
+</beans>
