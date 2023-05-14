@@ -4,7 +4,7 @@ import java.util.List;
 
 import com.pojo.Poojitha;
 
-public interface CustDao {
+public interface PoojithaDao {
 
 	void save(Poojitha ct);
 

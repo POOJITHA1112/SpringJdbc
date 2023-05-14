@@ -17,6 +17,7 @@ public class CustController {
 	public void save(Poojitha ct) {
 		serviceImpl.save(ct);
 	}
+	 
 
 	public void update(String name,double salary,String email,int id) {
 		serviceImpl.update(name, salary, email, id);

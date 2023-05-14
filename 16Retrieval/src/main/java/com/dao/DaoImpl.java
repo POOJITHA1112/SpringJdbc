@@ -12,7 +12,7 @@ import org.springframework.stereotype.Component;
 import com.pojo.Poojitha;
 
 @Component
-public class DaoImpl implements CustDao {
+public class DaoImpl implements PoojithaDao {
 
 
 	@Autowired
